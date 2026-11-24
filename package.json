@@ -1,0 +1,19 @@
+{
+  "name": "stickman-3d-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic 2.5D Flat Vector Stickman + Real-3D Environment Storytelling Video Template Kit (Three.js + Headless Chromium + FFmpeg + Procedural SFX).",
+  "scripts": {
+    "dev": "vite --port=5173 --host=0.0.0.0",
+    "preview:server": "node render/preview-server.mjs",
+    "new:episode": "node scripts/new-episode.mjs",
+    "test": "node --test tests/determinism.test.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright-core": "^1.52.0",
+    "three": "^0.187.0",
+    "vite": "^8.3.0"
+  }
+}
